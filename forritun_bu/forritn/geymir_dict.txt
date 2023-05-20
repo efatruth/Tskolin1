@@ -1,0 +1,27 @@
+﻿{'kalli':1, 'konni':2, 'takk':3, 'sjáumst':4}
+{'Jón': 2, 'Krístinn': 4, 'Páll': 6, 'Ólafur': 8}
+{'james': 5, 'kiki': 6, 'reuben': 7, 'aron': 9}
+{'Jón': 2, 'Krístinn': 4, 'Páll': 6, 'Ólafur': 8}
+{'james': 5, 'kiki': 6, 'reuben': 7, 'aron': 9}
+{'Jón': 2, 'Krístinn': 4, 'Páll': 6, 'Ólafur': 8}
+{'james': 5, 'kiki': 6, 'reuben': 7, 'aron': 9}
+{'Jón': 2, 'Krístinn': 4, 'Páll': 6, 'Ólafur': 8}
+{'james': 5, 'kiki': 6, 'reuben': 7, 'aron': 9}
+{'Jón': 2, 'Krístinn': 4, 'Páll': 6, 'Ólafur': 8}
+{'james': 5, 'kiki': 6, 'reuben': 7, 'aron': 9}
+{'Jón': 2, 'Krístinn': 4, 'Páll': 6, 'Ólafur': 8}
+{'james': 5, 'kiki': 6, 'reuben': 7, 'aron': 9}
+{'Jón': 2, 'Krístinn': 4, 'Páll': 6, 'Ólafur': 8}
+{'james': 5, 'kiki': 6, 'reuben': 7, 'aron': 9}
+{'Jón': 2, 'Krístinn': 4, 'Páll': 6, 'Ólafur': 8}
+{'james': 5, 'kiki': 6, 'reuben': 7, 'aron': 9}
+{'Jón': 2, 'Krístinn': 4, 'Páll': 6, 'Ólafur': 8}
+{'james': 5, 'kiki': 6, 'reuben': 7, 'aron': 9}
+{'Jón': 2, 'Krístinn': 4, 'Páll': 6, 'Ólafur': 8}
+{'james': 5, 'kiki': 6, 'reuben': 7, 'aron': 9}
+{'Jón': 2, 'Krístinn': 4, 'Páll': 6, 'Ólafur': 8}
+{'james': 5, 'kiki': 6, 'reuben': 7, 'aron': 9}
+{'Jón': 2, 'Krístinn': 4, 'Páll': 6, 'Ólafur': 8}
+{'james': 5, 'kiki': 6, 'reuben': 7, 'aron': 9}
+{'Jón': 2, 'Krístinn': 4, 'Páll': 6, 'Ólafur': 8}
+{'james': 5, 'kiki': 6, 'reuben': 7, 'aron': 9}

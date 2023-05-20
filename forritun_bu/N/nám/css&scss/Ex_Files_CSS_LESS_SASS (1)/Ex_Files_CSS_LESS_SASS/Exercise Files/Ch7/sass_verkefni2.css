@@ -1,0 +1,22 @@
+nav {
+  background: #ff0000; }
+
+ul {
+  width: 100%; }
+  ul a {
+    color: #032f3e;
+    text-decoration: none;
+    padding: 16px;
+    display: block;
+    text-align: center; }
+
+h2 {
+  font-size: 46px;
+  color: #032f3e; }
+
+article {
+  background: #032f3e; }
+  article h3 {
+    color: comlement(#ff0000, 5); }
+
+/*# sourceMappingURL=sass_verkefni2.css.map */

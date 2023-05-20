@@ -1,0 +1,63 @@
+//variables
+$deepblue: #032f3e;
+$sectionHeading: 28px;
+$offtwhite: #f8f9fb;
+$h4heading:46px;
+$red:#ff0000;
+$dockheading:25px;
+
+
+@mixin doc{
+    width: 100%;
+    position:relative;
+    color: $red;
+    .doc{
+        top: 15px;
+        width: 25%;
+        font-size:$dockheading;
+        position: absolute;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
+
+div{
+    background: $deepblue;
+    header{
+        width: 100px;
+        height: 50px;
+        background-color: $offtwhite;
+        font-weight: bold;
+        position: relative;
+        -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+        animation: mymove 5s infinite;
+        }
+    
+             @-webkit-keyframes mymove {
+        from {left: 0px;}
+        to {left: 300px;}
+        }
+        
+    h2{
+        float: left;
+        width: 14%;
+    }
+    h3{
+        color:$offtwhite;
+        text-decoration: none;
+        padding:16px;
+        display: block;
+        text-align: center;
+    }
+    
+}
+
+#list1{
+    color:lighten($deepblue,5)
+}
+
+h1{
+  font-size: $sectionHeading;
+  color: $red;
+}
+

@@ -1,0 +1,49 @@
+//variables
+$deepblue: #032f3e;
+$sectionHeading: 28px;
+$offtwhite: #f8f9fb;
+$h2heading:46px;
+$red:#ff0000;
+$dockheading:25px;
+
+
+//mixin og nestin
+@mixin article{
+    width: 100%;
+    position: absolute;
+    color: $deepblue;
+    .wrapper{
+        position: absolute;
+        top: 50px;
+        width: 100;
+    }
+
+           
+}
+
+nav{
+    background: $red;
+}
+    ul{
+    width: 100%;
+    a{
+        color:$deepblue;
+        text-decoration: none;
+        padding: 16px;
+        display: block;
+        text-align: center;
+        }
+}
+
+h2{
+    font-size:$h2heading;
+    color: $deepblue;
+}
+
+//function
+article {
+    background: $deepblue;
+    h3 {
+    color:comlement($red,5);
+}
+}

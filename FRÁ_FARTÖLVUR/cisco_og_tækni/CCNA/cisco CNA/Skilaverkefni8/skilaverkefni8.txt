@@ -1,0 +1,60 @@
+
+10.10.0.0/16 		255.255.0.0
+
+ í sex subnet þar sem:
+LAN1 og LAN2 þarf 8000 ip-tölur.
+LAN3 og LAN4 þarf 2000 ip-tölur.
+LAN5 og LAN6 þarf 500 ip-tölur.
+
+LAN1 10.0.0.1		255.255.0.0
+
+	128 64 32 16  8 4 2 1
+10.1.0.1		net addr
+10.1.0.1		frst hst
+10.1.0.1		lst hst
+10.1.0.1		br.addr
+
+
+LAN2 10.1.0.1		255.255.0.0
+
+	128 64 32 16  8 4 2 1
+10.1.0.1		net addr
+10.1.0.1		frst hst
+10.1.0.1		lst hst
+10.1.0.1		br.addr
+
+
+LAN3 10.2.0.1		255.255.0.0
+
+	128 64 32 16  8 4 2 1
+10.1.0.1		net addr
+10.1.0.1		frst hst
+10.1.0.1		lst hst
+10.1.0.1		br.addr
+
+
+LAN4 10.3.0.1		255.255.0.0
+
+	128 64 32 16  8 4 2 1
+10.1.0.1		net addr
+10.1.0.1		frst hst
+10.1.0.1		lst hst
+10.1.0.1		br.addr
+
+
+LAN5 10.4.0.1		255.255.0.0
+
+	128 64 32 16  8 4 2 1
+10.1.0.1		net addr
+10.1.0.1		frst hst
+10.1.0.1		lst hst
+10.1.0.1		br.addr
+
+
+LAN6 10.5.0.1		255.255.0.0
+
+	128 64 32 16  8 4 2 1
+10.1.0.1		net addr
+10.1.0.1		frst hst
+10.1.0.1		lst hst
+10.1.0.1		br.addr

@@ -1,0 +1,3 @@
+{konni:1,snorri:2,kalli:3,palli:4,}
+{1:tyu,2:rtry,3:inn,4:zxd,5:axx,}
+{1:nm,m,2:nm,3:wa,m,4:oucx,5:nmk,}

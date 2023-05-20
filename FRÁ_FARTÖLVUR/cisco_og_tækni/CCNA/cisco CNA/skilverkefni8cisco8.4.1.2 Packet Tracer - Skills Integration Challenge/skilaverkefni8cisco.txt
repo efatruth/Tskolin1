@@ -1,0 +1,46 @@
+
+
+
+ 	net: 172.20.16.0/23   		mask:  255.255.254.0
+
+	
+LAN A1
+is (500 host) using the subnet 172.20.16.0/23. 
+Assign the next available subnet to
+3rd  octet				4th octet
+128  64  32   16   8    4   2   1  |     192 224 240 248 252 254 255
+      8192 4096 2048 1024 512| 256 |  128 64  32  16  8   4   2   1
+
+net addr	     ip ranges		    br		     subnet mask
+172.20.16.0  172.20.16.1 - 172.20.17.254   172.20.17.255     255.255.254.0
+
+
+
+LAN A2
+for a maximum of 250 hosts.
+3rd  octet				4th octet
+128  64  32   16   8    4   2   1  |     192 224 240 248 252 254 255
+       8192 4096 2048 1024 512 256 |  128 64  32  16  8   4   2   1
+
+net addr	    ip ranges		    br		     subnet mask
+172.20.18.0  172.20.18.1 - 172.20.18.254   172.20.18.255     255.255.255.0
+
+
+
+172.20.19.0  172.20.19.1 - 172.20.19.254   172.20.19.255    255.255.255.0
+
+
+
+LAN B1
+is using the subnet 2001:DB8:FADE:00FF::/64., _1st ip add: 2001:DB8:FADE:00FF::1/64
+Assign the next available subnet to 
+
+
+LAN B2
+2001:DB8:FADE:0100::/64.,  _1st ip add: 2001:DB8:FADE:0100::1/64
+
+
+
+the 16th ipv6 addr for 2001:DB8:FADE:00FF::/64 er 2001:DB8:FADE:00FF::10/64
+the 16th ipv6 addr for 2001:DB8:FADE:0100::/64 er 2001:DB8:FADE:0100::20/64
+

@@ -1,0 +1,67 @@
+﻿
+192.168.3.0 /24. 		mask 255.255.255.0
+
+1st subnet, existing student LAN, up to 28 hosts 
+(Fa0/0 on R2-Central, connected to Fa0/24 on S1-Central)
+
+			       192.168.3.0 /27		  mask 255.255.255.224
+	128 64 32 16 8 4 2 1	
+
+192.168.3.0  0  0 |0 0 0 0 0
+192.168.3.0  0  0 |0 0 0 0 1 1  first hst
+192.168.3.0  0  0 |1 1 1 1 0 30 lst hst
+192.168.3.0  0  0 |1 1 1 1 1 31 br.addr 
+ 
+
+2nd subnet, future student LAN, up to 28 hosts (not yet implemented)
+
+ 192.168.3.0 /27		  mask 255.255.255.224
+
+	 128 64 32 16 8 4 2 1
+
+192.168.3.32  0  1 |0 0 0 0 0
+192.168.3.0   0  1 |0 0 0 0 1 33 first hst
+192.168.3.0   0  1 |1 1 1 1 0 62 lst hst
+192.168.3.0   0  1 |1 1 1 1 1 63 br.addr
+
+
+3rd subnet, existing ISP LAN, up to 14 hosts (Fa0/0 on R1-ISP)
+
+ 192.168.3.64 /28		  mask 255.255.255.240
+
+	 128 64 32 16  8 4 2 1
+
+192.168.3.64  0  1  0 |0 0 0 0
+192.168.3.0   0  1  0 |0 0 0 1 65 first hst
+192.168.3.0   0  1  0 |1 1 1 0 78 lst hst
+192.168.3.0   0  1  0 |1 1 1 1 79 br.addr
+
+
+
+
+4th subnet, future ISP LAN, up to 7 hosts (not yet implemented)
+
+ 192.168.3.80 /28		  mask 255.255.255.248
+
+	128 64 32 16  8 4 2 1
+
+192.168.3.80 
+192.168.3.0  1  0  1 |0 0 0 1 81 first hst
+192.168.3.0  1  0  1 |1 1 1 0 94 lst hst
+192.168.3.0  1  0  1 |1 1 1 1 95 br.addr
+
+
+
+
+5th subnet, existing WAN, point-to-point link 
+(S0/0/0 on R1-ISP and S0/0/0 on R2-Central)
+
+ 192.168.3.96 /30		  mask 255.255.255.252
+
+	128 64 32 16 8 4 2 1
+192.168.3.96
+192.168.3.0 1  1  0 0 0|0 0
+192.168.3.0 1  1  0 0 0|0 1 97 first hst
+192.168.3.0 1  1  0 0 0|1 0 98 lst hst
+192.168.3.0 1  1  0 0 0|1 1 99 br.addr
+
